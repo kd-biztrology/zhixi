@@ -1,0 +1,6 @@
+{
+  "SERVER_PORT": 9000,
+  "PARSE_SERVER_APP_ID": "parse_app_id",
+  "PARSE_SERVER_URL": "http://localhost:8000/parse",
+  "GRAPHQL_URL": "http://localhost:8000/graphql"
+}

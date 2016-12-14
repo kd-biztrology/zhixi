@@ -1,0 +1,9 @@
+{
+  "APP_NAME": "ZhiXi-server",
+  "PARSE_SERVER_MASTER_KEY": "tj3zqdwLFuBRXhXeY8nQAqdX",
+  "PARSE_SERVER_DATABASE_URI": "mongodb://localhost:27017/lokobee_dev",
+  "PARSE_DASHBOARD_ALLOW_INSECURE_HTTP" : true,
+  "PARSE_DASHBOARD_USER": "zhixi",
+  "PARSE_DASHBOARD_PASS": "zhixi",
+  "PARSE_DASHBOARD_USE_ENCRYPTED_PASSWORDS": false
+}
