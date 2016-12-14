@@ -13,7 +13,7 @@
     "server-watch": "npm run mongo && NODE_ENV=development ./scripts/server.js --watch"
   },
   "keywords": [],
-  "author":"rongliang duan",
+  "author": "rongliang duan",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.16.0",
