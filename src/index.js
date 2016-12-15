@@ -15,5 +15,5 @@ parseServer.setup(app, config);
 graphqlServer.setup(app, isDevelopment);
 
 app.listen(serverPort, function () {
-  console.log(`server running on port ${serverPort}`);
+    console.log(`server running on port ${serverPort}`);
 });
