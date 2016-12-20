@@ -3,6 +3,8 @@
  */
 import Parse from 'parse/node';
 import {createModel, buildOptions} from './model';
+
+
 export function createQuery(sessionToken) {
   if (!sessionToken) {
     class basicQuery extends Parse.Query {
