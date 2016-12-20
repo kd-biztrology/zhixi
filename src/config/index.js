@@ -4,9 +4,9 @@
 function loadConfig() {
   try {
     return Object.assign({},
-        require('../../config/development/base'),
-        require('../../config/development/server'),
-        {isDevelopment: true}
+      require('../../config/development/base'),
+      require('../../config/development/server'),
+      {isDevelopment: true}
     );
   } catch (error) {
     return JSON.parse(process.env.APPLICATION_CONFIG);
