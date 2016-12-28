@@ -5,21 +5,21 @@ import {
   GraphQLObjectType
 } from 'graphql'
 
-export const QueryType=new GraphQLObjectType({
-    name:"Query",
-    field:{
-      ...RestaurantQueryType,
-      ...DishQueryType,
-      ...OrderQueryType,
-      ...UserQueryType,
-    },
+export const QueryType = new GraphQLObjectType({
+  name: "Query",
+  field: {
+    ...RestaurantQueryType,
+    ...DishQueryType,
+    ...OrderQueryType,
+    ...UserQueryType,
+  },
 });
-export  const MutationType=new GraphQLObjectType({
-    name:"Mutation",
-    field:{
-      ...RestaurantMutationType,
-      ...DishMutationType,
-      ...OrderMutationType,
-      ...UserMutationType,
-    },
+export const MutationType = new GraphQLObjectType({
+  name: "Mutation",
+  field: {
+    ...RestaurantMutationType,
+    ...DishMutationType,
+    ...OrderMutationType,
+    ...UserMutationType,
+  },
 });

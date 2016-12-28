@@ -27,14 +27,14 @@ export function parseGraphQLHTTP({schema, graphql = false}) {
     }
     const q = new Parse.Query(Parse.Session).equalTo('sessionToken', sessionToken);
     return q.first({userMasterKey: true})
-        .then(session => session && session.get('user').fetch({userMasterKey: true}))
-        .then(user => {
-          // ParseQuery:createQuery(sessionToken);
-          const context = {
-            sessionToken,
-            user
-          };
-          return Object.assign(baseOps, {context});
-        });
+      .then(session => session && session.get('user').fetch({userMasterKey: true}))
+      .then(user => {
+        // ParseQuery:createQuery(sessionToken);
+        const context = {
+          sessionToken,
+          user
+        };
+        return Object.assign(baseOps, {context});
+      });
   });
 } 
